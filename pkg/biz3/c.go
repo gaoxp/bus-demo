@@ -3,8 +3,8 @@ package biz3
 import (
 	"fmt"
 
-	"github.com/zhaolion/demo/pkg/biz1"
-	"github.com/zhaolion/demo/pkg/biz2"
+	"github.com/zhaolion/bus-demo/pkg/biz1"
+	"github.com/zhaolion/bus-demo/pkg/biz2"
 )
 
 func Biz(msg string) {

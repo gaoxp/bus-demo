@@ -3,8 +3,8 @@ package kafka
 import (
 	"fmt"
 
-	"github.com/zhaolion/demo/bus"
-	"github.com/zhaolion/demo/model"
+	"github.com/zhaolion/bus-demo/bus"
+	"github.com/zhaolion/bus-demo/model"
 )
 
 func init() {

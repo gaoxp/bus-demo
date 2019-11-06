@@ -3,12 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/zhaolion/demo/pkg/biz6"
-
-	"github.com/zhaolion/demo/pkg/biz3"
-	_ "github.com/zhaolion/demo/pkg/biz4"
-	"github.com/zhaolion/demo/pkg/biz5"
-	_ "github.com/zhaolion/demo/pkg/kafka"
+	"github.com/zhaolion/bus-demo/pkg/biz3"
+	_ "github.com/zhaolion/bus-demo/pkg/biz4"
+	"github.com/zhaolion/bus-demo/pkg/biz5"
+	"github.com/zhaolion/bus-demo/pkg/biz6"
+	_ "github.com/zhaolion/bus-demo/pkg/kafka"
 )
 
 func main() {
